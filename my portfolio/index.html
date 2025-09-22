@@ -1,204 +1,203 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Nigel Muponda — Software Engineering Student</title>
-  <meta name="description" content="Portfolio of Nigel Muponda — undergraduate Software Engineering student at Africa University." />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nigel Muponda — Software Engineering Student</title>
+  <meta name="description" content="Portfolio of Nigel Muponda — undergraduate Software Engineering student at Africa University." />
 
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 
-  <style>
-    :root{
-      --bg: #0f1724;
-      --card: #0b1220;
-      --muted: #9aa4b2;
-      --accent: linear-gradient(90deg,#7c3aed,#06b6d4);
-      --glass: rgba(255,255,255,0.03);
-      --maxw: 1000px;
-    }
-    *{box-sizing:border-box}
-    html,body{height:100%}
-    body{
-      margin:0;
-      font-family: 'Inter',system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
-      background: radial-gradient(1200px 600px at 10% 10%, rgba(124,58,237,0.08), transparent),
-                  radial-gradient(1000px 500px at 90% 90%, rgba(6,182,212,0.05), transparent),
-                  var(--bg);
-      color:#e6eef8;
-      -webkit-font-smoothing:antialiased;
-      -moz-osx-font-smoothing:grayscale;
-      padding:40px 16px;
-      display:flex;
-      justify-content:center;
-    }
-    .container{width:100%;max-width:var(--maxw);}
-    header{display:flex;gap:20px;align-items:center;margin-bottom:28px;}
-    .avatar{width:96px;height:96px;border-radius:14px;flex-shrink:0;background:linear-gradient(180deg, rgba(255,255,255,0.04), rgba(0,0,0,0.08));display:grid;place-items:center;overflow:hidden;border:1px solid rgba(255,255,255,0.03);}
-    .avatar img{width:100%;height:100%;object-fit:cover}
-    h1{font-size:20px;margin:0 0 4px 0}
-    .subtitle{color:var(--muted);font-size:13px;margin:0}
-    .hero-card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:14px;padding:20px;border:1px solid rgba(255,255,255,0.03);display:flex;gap:24px;align-items:center;justify-content:space-between;margin-bottom:24px;}
-    .about{max-width:66%}
-    .actions{display:flex;gap:10px}
-    .btn{padding:10px 14px;border-radius:10px;border:none;background:var(--glass);color:inherit;cursor:pointer;font-weight:600;font-size:14px;backdrop-filter: blur(6px);}
-    .btn-primary{background:var(--accent);border:0;color:white;padding:10px 16px;border-radius:10px;box-shadow:0 6px 18px rgba(124,58,237,0.12);}
-    main{display:grid;grid-template-columns:1fr 320px;gap:20px;align-items:start}
-    .card{background:var(--card);border-radius:12px;padding:18px;border:1px solid rgba(255,255,255,0.02);}
-    .section-title{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
-    .skills{display:flex;flex-wrap:wrap;gap:8px}
-    .skill{background:rgba(255,255,255,0.03);padding:8px 10px;border-radius:999px;font-size:13px;transition: all 0.2s ease;}
-    .skill:hover{background: var(--accent); color:white; transform: scale(1.05);}
-    .projects{display:grid;gap:12px}
-    .project{padding:12px;border-radius:10px;background:linear-gradient(180deg, rgba(255,255,255,0.015), rgba(0,0,0,0.025));border:1px solid rgba(255,255,255,0.02);transition: all 0.3s ease;}
-    .project:hover{transform: translateY(-4px); box-shadow: 0 8px 20px rgba(124,58,237,0.2);}
-    .project h3{margin:0 0 6px 0;font-size:15px}
-    .project p{margin:0;color:var(--muted);font-size:13px}
-    .project a{font-size:13px;color:inherit;text-decoration:none;opacity:0.9}
-    .right-col{display:flex;flex-direction:column;gap:12px}
-    .education p,.contact p{margin:6px 0;color:var(--muted)}
-    footer{margin-top:20px;color:var(--muted);font-size:13px;text-align:center}
-    @media (max-width:880px){main{grid-template-columns:1fr}.about{max-width:100%}.avatar{width:80px;height:80px}}
-  </style>
+  <style>
+    :root{
+      --bg: #0f1724;
+      --card: #0b1220;
+      --muted: #9aa4b2;
+      --accent: linear-gradient(90deg,#7c3aed,#06b6d4);
+      --glass: rgba(255,255,255,0.03);
+      --maxw: 1000px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: 'Inter',system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+      background: radial-gradient(1200px 600px at 10% 10%, rgba(124,58,237,0.08), transparent),
+                  radial-gradient(1000px 500px at 90% 90%, rgba(6,182,212,0.05), transparent),
+                  var(--bg);
+      color:#e6eef8;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      padding:40px 16px;
+      display:flex;
+      justify-content:center;
+    }
+    .container{width:100%;max-width:var(--maxw);}
+    header{display:flex;gap:20px;align-items:center;margin-bottom:28px;}
+    .avatar{width:96px;height:96px;border-radius:14px;flex-shrink:0;background:linear-gradient(180deg, rgba(255,255,255,0.04), rgba(0,0,0,0.08));display:grid;place-items:center;overflow:hidden;border:1px solid rgba(255,255,255,0.03);}
+    .avatar img{width:100%;height:100%;object-fit:cover}
+    h1{font-size:20px;margin:0 0 4px 0}
+    .subtitle{color:var(--muted);font-size:13px;margin:0}
+    .hero-card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:14px;padding:20px;border:1px solid rgba(255,255,255,0.03);display:flex;gap:24px;align-items:center;justify-content:space-between;margin-bottom:24px;}
+    .about{max-width:66%}
+    .actions{display:flex;gap:10px}
+    .btn{padding:10px 14px;border-radius:10px;border:none;background:var(--glass);color:inherit;cursor:pointer;font-weight:600;font-size:14px;backdrop-filter: blur(6px);}
+    .btn-primary{background:var(--accent);border:0;color:white;padding:10px 16px;border-radius:10px;box-shadow:0 6px 18px rgba(124,58,237,0.12);}
+    main{display:grid;grid-template-columns:1fr 320px;gap:20px;align-items:start}
+    .card{background:var(--card);border-radius:12px;padding:18px;border:1px solid rgba(255,255,255,0.02);}
+    .section-title{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+    .skill{background:rgba(255,255,255,0.03);padding:8px 10px;border-radius:999px;font-size:13px;transition: all 0.2s ease;}
+    .skill:hover{background: var(--accent); color:white; transform: scale(1.05);}
+    .projects{display:grid;gap:12px}
+    .project{padding:12px;border-radius:10px;background:linear-gradient(180deg, rgba(255,255,255,0.015), rgba(0,0,0,0.025));border:1px solid rgba(255,255,255,0.02);transition: all 0.3s ease;}
+    .project:hover{transform: translateY(-4px); box-shadow: 0 8px 20px rgba(124,58,237,0.2);}
+    .project h3{margin:0 0 6px 0;font-size:15px}
+    .project p{margin:0;color:var(--muted);font-size:13px}
+    .project a{font-size:13px;color:inherit;text-decoration:none;opacity:0.9}
+    .right-col{display:flex;flex-direction:column;gap:12px}
+    .education p,.contact p{margin:6px 0;color:var(--muted)}
+    footer{margin-top:20px;color:var(--muted);font-size:13px;text-align:center}
+    @media (max-width:880px){main{grid-template-columns:1fr}.about{max-width:100%}.avatar{width:80px;height:80px}}
+  </style>
 </head>
 <body>
-  <div class="container">
+  <div class="container">
 
-    <header>
-      <div class="avatar" aria-hidden="true">
-        <img src="nigel.jpg" alt="Nigel Muponda" onerror="this.style.opacity=0.05;this.alt='Profile image missing'" />
-      </div>
-      <div class="about">
-        <h1>Nigel Masimba Muponda <span style="font-weight:400;color:var(--muted);font-size:14px">— 21 · Software Engineering (Undergrad)</span></h1>
-        <p class="subtitle">Undergraduate Software Engineering student at Africa University • Passionate about web & backend development, databases and building useful tools.</p>
-      </div>
-      <div class="actions">
-        <a class="btn" href="#contact">Contact</a>
-        <a class="btn btn-primary" href="#projects">Projects</a>
-      </div>
-    </header>
+    <header>
+      <div class="avatar" aria-hidden="true">
+        <img src="nigel.jpg" alt="Nigel Muponda" onerror="this.style.opacity=0.05;this.alt='Profile image missing'" />
+      </div>
+      <div class="about">
+        <h1>Nigel Masimba Muponda <span style="font-weight:400;color:var(--muted);font-size:14px">— 21 · Software Engineering (Undergrad)</span></h1>
+        <p class="subtitle">Undergraduate Software Engineering student at Africa University • Passionate about web & backend development, databases and building useful tools.</p>
+      </div>
+      <div class="actions">
+        <a class="btn" href="#contact">Contact</a>
+        <a class="btn btn-primary" href="#projects">Projects</a>
+      </div>
+    </header>
 
-    <div class="hero-card card">
-      <div>
-        <h2 style="margin:0 0 6px 0">Hi — I'm Nigel 👋</h2>
-        <p style="margin:0;color:var(--muted)">Currently studying Software Engineering at Africa University. I build small apps, practice algorithms, and contribute to open source when I can.</p>
-      </div>
-      <div style="text-align:right;min-width:180px">
-        <p style="margin:0;color:var(--muted);font-size:13px">Looking for internship or project collaborations.</p>
-        <p style="margin:8px 0 0 0"><a class="btn" id="contactBtn" href="mailto:mupondan@gmail.com">Email me</a></p>
-      </div>
-    </div>
+    <div class="hero-card card">
+      <div>
+        <h2 style="margin:0 0 6px 0">Hi — I'm Nigel 👋</h2>
+        <p style="margin:0;color:var(--muted)">Currently studying Software Engineering at Africa University. I build small apps, practice algorithms, and contribute to open source when I can.</p>
+      </div>
+      <div style="text-align:right;min-width:180px">
+        <p style="margin:0;color:var(--muted);font-size:13px">Looking for internship or project collaborations.</p>
+        <p style="margin:8px 0 0 0"><a class="btn" id="contactBtn" href="mailto:mupondan@gmail.com">Email me</a></p>
+      </div>
+    </div>
 
-    <main>
-      <div>
-        <section class="card">
-          <div class="section-title"><h3 style="margin:0">Skills</h3><span style="color:var(--muted);font-size:13px">Comfortable with</span></div>
-          <div class="skills">
-            <div class="skill">Java</div>
-            <div class="skill">JavaScript</div>
-            <div class="skill">HTML & CSS</div>
-            <div class="skill">SQL (MySQL / MSSQL)</div>
-            <div class="skill">Python</div>
-            <div class="skill">Git</div>
-            <div class="skill">Node.js</div>
-            <div class="skill">React (basics)</div>
-          </div>
-        </section>
+    <main>
+      <div>
+        <section class="card">
+          <div class="section-title"><h3 style="margin:0">Skills</h3><span style="color:var(--muted);font-size:13px">Comfortable with</span></div>
+          <div class="skills">
+            <div class="skill">Java</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">HTML & CSS</div>
+            <div class="skill">SQL (MySQL / MSSQL)</div>
+            <div class="skill">Python</div>
+            <div class="skill">Git</div>
+            <div class="skill">Node.js</div>
+            <div class="skill">React (basics)</div>
+          </div>
+        </section>
 
-        <section id="projects" class="card" style="margin-top:14px">
-          <div class="section-title"><h3 style="margin:0">Projects</h3><a href="#" style="font-size:13px;color:var(--muted);text-decoration:none">View all →</a></div>
-          <div class="projects">
-            <article class="project">
-              <h3>Library Management System</h3>
-              <p>Relational DB + ASP.NET/Java backend to manage books, members and loans. Includes ER diagram and SQL scripts.</p>
-              <p style="margin-top:8px"><a href="#">Repository / Demo</a></p>
-            </article>
-            <article class="project">
-              <h3>Personal Notes App</h3>
-              <p>Full-stack notes app with user authentication, CRUD operations and responsive UI.</p>
-              <p style="margin-top:8px"><a href="#">Repository / Demo</a></p>
-            </article>
-            <article class="project">
-              <h3>Coursework & Exercises</h3>
-              <p>A collection of solved algorithm problems and database coursework for university labs.</p>
-              <p style="margin-top:8px"><a href="#">View repository</a></p>
-            </article>
-          </div>
-        </section>
+        <section id="projects" class="card" style="margin-top:14px">
+          <div class="section-title"><h3 style="margin:0">Projects</h3><a href="https://github.com/nigelmuponda/portfolio" target="_blank" style="font-size:13px;color:var(--muted);text-decoration:none">View all →</a></div>
+          <div class="projects">
+            <article class="project">
+              <h3>Library Management System</h3>
+              <p>Relational DB + ASP.NET/Java backend to manage books, members and loans. Includes ER diagram and SQL scripts.</p>
+              <p style="margin-top:8px"><a href="https://github.com/nigelmuponda/portfolio" target="_blank">Repository / Demo</a></p>
+            </article>
+            <article class="project">
+              <h3>Personal Notes App</h3>
+              <p>Full-stack notes app with user authentication, CRUD operations and responsive UI.</p>
+              <p style="margin-top:8px"><a href="https://github.com/nigelmuponda/portfolio" target="_blank">Repository / Demo</a></p>
+            </article>
+            <article class="project">
+              <h3>Coursework & Exercises</h3>
+              <p>A collection of solved algorithm problems and database coursework for university labs.</p>
+              <p style="margin-top:8px"><a href="https://github.com/nigelmuponda/portfolio" target="_blank">View repository</a></p>
+            </article>
+          </div>
+        </section>
 
-        <section class="card" style="margin-top:14px">
-          <div class="section-title"><h3 style="margin:0">About</h3></div>
-          <p style="color:var(--muted);margin:0 0 8px 0">I’m a 21-year-old undergraduate student studying Software Engineering at <strong>Africa University</strong>. I enjoy building small projects, learning about databases and backend systems, and improving my coding skills through challenges and real-world assignments.</p>
-          <p style="margin:8px 0 0 0;color:var(--muted);font-size:13px"><strong>Hobbies:</strong> Coding challenges, reading tech blogs, tinkering with small hardware projects, and football.</p>
-        </section>
-      </div>
+        <section class="card" style="margin-top:14px">
+          <div class="section-title"><h3 style="margin:0">About</h3></div>
+          <p style="color:var(--muted);margin:0 0 8px 0">I’m a 21-year-old undergraduate student studying Software Engineering at <strong>Africa University</strong>. I enjoy building small projects, learning about databases and backend systems, and improving my coding skills through challenges and real-world assignments.</p>
+          <p style="margin:8px 0 0 0;color:var(--muted);font-size:13px"><strong>Hobbies:</strong> Coding challenges, reading tech blogs, tinkering with small hardware projects, and football.</p>
+        </section>
+      </div>
 
-      <aside class="right-col">
-        <section class="card education">
-          <div class="section-title"><h3 style="margin:0">Education</h3></div>
-          <p><strong>Africa University</strong></p>
-          <p>Bachelor — Software Engineering (Undergraduate)</p>
-          <p style="color:var(--muted);font-size:13px;margin-top:6px">Expected graduation: 2028</p>
-        </section>
+      <aside class="right-col">
+        <section class="card education">
+          <div class="section-title"><h3 style="margin:0">Education</h3></div>
+          <p><strong>Africa University</strong></p>
+          <p>Bachelor — Software Engineering (Undergraduate)</p>
+          <p style="color:var(--muted);font-size:13px;margin-top:6px">Expected graduation: 2028</p>
+        </section>
 
-        <section id="contact" class="card contact">
-          <div class="section-title"><h3 style="margin:0">Contact</h3></div>
-          <p style="margin:6px 0"><strong>Email</strong></p>
-          <p><a href="mailto:mupondan@gmail.com">mupondan@gmail.com</a></p>
-          <p style="margin:6px 0"><strong>Location</strong></p>
-          <p style="color:var(--muted)">Zimbabwe</p>
-          <div style="margin-top:10px">
-            <a class="btn" href="#">Download CV</a>
-          </div>
-          <div style="margin-top:12px;color:var(--muted);font-size:13px">
-            <p style="margin:6px 0"><strong>Social</strong></p>
-            <p style="margin:0">
-              <a href="#" style="text-decoration:none;color:inherit;margin-right:8px">GitHub</a> • 
-              <a href="#" style="text-decoration:none;color:inherit;margin-left:8px">LinkedIn</a>
-            </p>
-          </div>
-        </section>
+        <section id="contact" class="card contact">
+          <div class="section-title"><h3 style="margin:0">Contact</h3></div>
+          <p style="margin:6px 0"><strong>Email</strong></p>
+          <p><a href="mailto:mupondan@gmail.com">mupondan@gmail.com</a></p>
+          <p style="margin:6px 0"><strong>Location</strong></p>
+          <p style="color:var(--muted)">Zimbabwe</p>
+          <div style="margin-top:10px">
+            <a class="btn" href="assets/Nigel_Muponda_CV.pdf" download>Download CV</a>
+          </div>
+          <div style="margin-top:12px;color:var(--muted);font-size:13px">
+            <p style="margin:6px 0"><strong>Social</strong></p>
+            <p style="margin:0">
+              <a href="https://github.com/nigelmuponda/portfolio" target="_blank" style="text-decoration:none;color:inherit;margin-right:8px">GitHub</a> • 
+              <a href="#" target="_blank" style="text-decoration:none;color:inherit;margin-left:8px">LinkedIn</a>
+            </p>
+          </div>
+        </section>
 
-        <section class="card">
-          <div class="section-title"><h3 style="margin:0">Quick Links</h3></div>
-          <p style="margin:6px 0;color:var(--muted);font-size:13px">Useful links to add or update:</p>
-          <ul style="margin:6px 0 0 16px;color:var(--muted);font-size:13px">
-            <li>GitHub repo URL</li>
-            <li>Hosted demo URL</li>
-            <li>Downloadable CV (PDF)</li>
-          </ul>
-        </section>
-      </aside>
-    </main>
+        <section class="card">
+          <div class="section-title"><h3 style="margin:0">Quick Links</h3></div>
+          <ul style="margin:6px 0 0 16px;color:var(--muted);font-size:13px">
+            <li><a href="https://github.com/nigelmuponda/portfolio" target="_blank">GitHub repo</a></li>
+            <li><a href="https://nigelmuponda.github.io/portfolio/" target="_blank">Live demo</a></li>
+            <li><a href="assets/Nigel_Muponda_CV.pdf" download>Download CV (PDF)</a></li>
+          </ul>
+        </section>
+      </aside>
+    </main>
 
-    <footer>
-      <p>Made with ♥ — Nigel Muponda • <span style="color:var(--muted)">Built using plain HTML & CSS</span></p>
-    </footer>
-  </div>
+    <footer>
+      <p>Made with ♥ — Nigel Muponda • <span style="color:var(--muted)">Built using plain HTML & CSS</span></p>
+    </footer>
+  </div>
 
-  <!-- Pop-up Contact Form -->
-  <div id="contactForm" style="display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);
-      background:var(--card);padding:20px;border-radius:12px;box-shadow:0 10px 25px rgba(0,0,0,0.4);z-index:1000;">
-    <h3>Contact Me</h3>
-    <input type="text" placeholder="Your Name" style="width:100%;margin:8px 0;padding:8px;">
-    <input type="email" placeholder="Your Email" style="width:100%;margin:8px 0;padding:8px;">
-    <textarea placeholder="Message" style="width:100%;margin:8px 0;padding:8px;"></textarea>
-    <button onclick="sendMessage()" class="btn btn-primary">Send</button>
-    <button onclick="document.getElementById('contactForm').style.display='none'" class="btn">Cancel</button>
-  </div>
+  <!-- Pop-up Contact Form -->
+  <div id="contactForm" style="display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);
+      background:var(--card);padding:20px;border-radius:12px;box-shadow:0 10px 25px rgba(0,0,0,0.4);z-index:1000;">
+    <h3>Contact Me</h3>
+    <input type="text" placeholder="Your Name" style="width:100%;margin:8px 0;padding:8px;">
+    <input type="email" placeholder="Your Email" style="width:100%;margin:8px 0;padding:8px;">
+    <textarea placeholder="Message" style="width:100%;margin:8px 0;padding:8px;"></textarea>
+    <button onclick="sendMessage()" class="btn btn-primary">Send</button>
+    <button onclick="document.getElementById('contactForm').style.display='none'" class="btn">Cancel</button>
+  </div>
 
-  <script>
-    // Open pop-up form on email click
-    document.getElementById('contactBtn').addEventListener('click', e=>{
-      e.preventDefault();
-      document.getElementById('contactForm').style.display='block';
-    });
+  <script>
+    // Open pop-up form on email click
+    document.getElementById('contactBtn').addEventListener('click', e=>{
+      e.preventDefault();
+      document.getElementById('contactForm').style.display='block';
+    });
 
-    function sendMessage(){
-      alert('Thank you! This form is just a demo for now.');
-      document.getElementById('contactForm').style.display='none';
-    }
-  </script>
+    function sendMessage(){
+      alert('Thank you! This form is just a demo for now.');
+      document.getElementById('contactForm').style.display='none';
+    }
+  </script>
 </body>
 </html>
